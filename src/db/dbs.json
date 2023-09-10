@@ -1,0 +1,114 @@
+{
+  "api": [
+    {
+      "id": "1c3e319e-631a-4541-9505-6a5430a03595",
+      "name": "Shellam Pramod",
+      "location": "Hyderabad",
+      "title": "venkatesh full stack resume",
+      "email": "venkateshvnky3803@gmail.com",
+      "phone": "8463944069",
+      "linkedIn": "venkatesh ",
+      "gitHub": "venkateshvnky3803",
+      "clgName": "Naraya junior college",
+      "clgCourse": "MPC",
+      "clgGrade": "83.5%",
+      "clgYear": "2015",
+      "grdCourse": "Civil engineering",
+      "grdGrade": "50%",
+      "grdName": "Mahaveer Insititute of science and technologies",
+      "grdYear": "2014-2019",
+      "exp": [
+        {
+          "companyName": "",
+          "experianceDesc": "",
+          "exYear": ""
+        },
+        {
+          "companyName": "Tesla",
+          "experianceDesc": "The tricky part is figuring out what doesn’t belong in the project description. The description should focus on goals, objectives, and the overall approach, but you don’t need to include lists of tasks,",
+          "exYear": "2"
+        },
+        {
+          "companyName": "Micro Soft",
+          "experianceDesc": "The tricky part is figuring out what doesn’t belong in the project description. The description should focus on goals, objectives, and the overall approach, but you don’t need to include lists of tasks",
+          "exYear": "1"
+        }
+      ],
+      "project": [
+        {
+          "title": "",
+          "projectDesc": ""
+        },
+        {
+          "title": "full stack development ",
+          "projectDesc": "A strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started."
+        },
+        {
+          "title": "full stack development 2",
+          "projectDesc": "A strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started ,\nA strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started. "
+        }
+      ],
+      "skill": [
+        "reactJs",
+        "HTML"
+      ],
+      "course": "bachalore of technology (B.tech)",
+      "about": "I am certified full stack web developer , recently i have completed full stack development course from UpGrad"
+    },
+    {
+      "id": "1c3e319e-631a-4541-9505-6a5930a03295",
+      "name": "Shellam Pramod",
+      "location": "Hyderabad",
+      "title": "venkatesh full stack resume",
+      "email": "venkateshvnky3803@gmail.com",
+      "phone": "8463944069",
+      "linkedIn": "venkatesh ",
+      "gitHub": "venkateshvnky3803",
+      "clgName": "Naraya junior college",
+      "clgCourse": "MPC",
+      "clgGrade": "83.5%",
+      "clgYear": "2015",
+      "grdCourse": "Civil engineering",
+      "grdGrade": "50%",
+      "grdName": "Mahaveer Insititute of science and technologies",
+      "grdYear": "2014-2019",
+      "exp": [
+        {
+          "companyName": "",
+          "experianceDesc": "",
+          "exYear": ""
+        },
+        {
+          "companyName": "Tesla",
+          "experianceDesc": "The tricky part is figuring out what doesn’t belong in the project description. The description should focus on goals, objectives, and the overall approach, but you don’t need to include lists of tasks,",
+          "exYear": "2"
+        },
+        {
+          "companyName": "Micro Soft",
+          "experianceDesc": "The tricky part is figuring out what doesn’t belong in the project description. The description should focus on goals, objectives, and the overall approach, but you don’t need to include lists of tasks",
+          "exYear": "1"
+        }
+      ],
+      "project": [
+        {
+          "title": "",
+          "projectDesc": ""
+        },
+        {
+          "title": "full stack development ",
+          "projectDesc": "A strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started."
+        },
+        {
+          "title": "full stack development 2",
+          "projectDesc": "A strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started ,\nA strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started. "
+        }
+      ],
+      "skill": [
+        "reactJs",
+        "HTML"
+      ],
+      "course": "bachalore of technology (B.tech)",
+      "about": "I am certified full stack web developer , recently i have completed full stack development course from UpGrad"
+    }
+  ]
+}

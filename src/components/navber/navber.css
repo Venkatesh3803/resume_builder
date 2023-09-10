@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+border-bottom: 1px solid gray;
+    margin: 0.8rem;
+}
+
+.logo {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+nav ul li:hover {
+    background-color: gray;
+    border-radius: 8px;
+}
+
+nav  button {
+    background-color: gray;
+    padding: 0 1.5rem;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    border: 1px solid gray;
+}
+
+nav button:hover {
+    background-color: transparent;
+    border: 1px solid gray;
+}

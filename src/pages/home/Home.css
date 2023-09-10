@@ -1,0 +1,21 @@
+.home p {
+    color: rgb(237, 234, 234);
+    font-size: large;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 70%;
+}
+
+.home h1 {
+    margin: 2rem;
+}
+
+.resume-box {
+    border: 1px solid gray;
+    width: 60%;
+    display: block;
+    margin: 0 auto 4rem auto;
+    min-height: 40vh;
+    border-radius: 8px;
+}

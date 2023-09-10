@@ -1,0 +1,140 @@
+.addform {
+    border: 1px solid gray;
+    padding: 2.5rem;
+    width: 60%;
+    margin: auto;
+    min-height: 70vh;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    font-size: 15px;
+}
+
+input {
+    border: 1px solid gray;
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+}
+
+input:focus {
+    border: 1px solid gray;
+
+}
+
+form h4,
+h5 {
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+
+.form-top {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+}
+
+.form-names {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.short {
+    width: 30%;
+}
+
+.form-eduaction {
+    width: 100%;
+}
+
+
+
+.education-inputs {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.college {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+}
+
+.grades {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.form-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.form-skills {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 40%;
+}
+
+.form-skills button {
+    padding: 0.2rem;
+    width: 150px;
+    cursor: pointer;
+}
+
+.form-skill {
+    text-align: left;
+}
+
+.skill-list {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.skill-list li {
+    background-color: rgb(208, 232, 252);
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.skill-list li span {
+    background-color: rgb(213, 58, 58);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit {
+    padding: 0.5rem;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 4px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.project-list {
+    text-align: left;
+}
