@@ -121,7 +121,7 @@ const ResumePage = ({ add }) => {
                                     return (
                                         <div className="project-info">
                                             <h4>{e.companyName}</h4>
-                                            <h4>{e.exYear}</h4>
+                                            <span> <b>{e.exYear}</b>  of Experiance</span>
                                             <div className="project-desc">
                                                 <p>{e.experianceDesc}</p>
                                             </div>

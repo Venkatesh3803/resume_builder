@@ -6,15 +6,8 @@ import { v4 as uuidv4 } from 'uuid';
 const AddForm = () => {
     const [inputs, setInputs] = useState({});
     const [skills, setSkills] = useState([]);
-    const [projects, setProjects] = useState([{
-        title: "",
-        projectDesc: "",
-    }]);
-    const [experiance, setExperiance] = useState([{
-        companyName: "",
-        experianceDesc: "",
-        exYear: "",
-    }]);
+    const [projects, setProjects] = useState([]);
+    const [experiance, setExperiance] = useState([]);
 
     const handleChange = (e) => {
         setInputs(prevState => ({ ...prevState, [e.target.name]: e.target.value }));
@@ -95,17 +88,17 @@ const AddForm = () => {
         <div className="addform">
             <form action="" className="" onSubmit={handleSubmit}>
                 <div className="title">
-                    <input type="text" name="title" placeholder="Title" onChange={handleChange} />
+                    <input type="text" name="title" required placeholder="Title" onChange={handleChange} />
                 </div>
                 <div className="form-top">
                     <h4>info</h4>
                     <div className="form-names">
-                        <input type="text" placeholder="Full name" name="fullname" onChange={handleChange} />
-                        <input type="text" name="phoneNumber" id="" placeholder="+91 845xxxxxx" className="short" onChange={handleChange} />
+                        <input type="text" placeholder="Full name" required name="fullname" onChange={handleChange} />
+                        <input type="text" name="phoneNumber" required id="" placeholder="+91 845xxxxxx" className="short" onChange={handleChange} />
                     </div>
                     <div className="form-names">
-                        <input type="text" placeholder="Location" name="Location" onChange={handleChange} />
-                        <input type="email" name="email" id="" placeholder="example@gmail.cpm" className="short" onChange={handleChange} />
+                        <input type="text" placeholder="location" required name="Location" onChange={handleChange} />
+                        <input type="email" name="email" id="" required placeholder="example@gmail.cpm" className="short" onChange={handleChange} />
                     </div>
                     <div className="form-names">
                         <input type="text" name="course" placeholder="higher Education (b.tech)" onChange={handleChange} />
@@ -113,13 +106,13 @@ const AddForm = () => {
                     </div>
                     <div className="form-names">
                         <input type="text" name="" placeholder="College name" />
-                        <input type="text" name="linkedIn" id="" placeholder="Linkedin Profile" onChange={handleChange} />
+                        <input type="text" name="linkedIn" required id="" placeholder="Linkedin Profile" onChange={handleChange} />
                     </div>
                 </div>
                 <div className="form-info">
                     <h4>About</h4>
                     <div className="form-about">
-                        <textarea name="about" id="" cols="30" rows="5" onChange={handleChange}></textarea>
+                        <textarea name="about" id="" cols="30" rows="5" onChange={handleChange} required></textarea>
                     </div>
                 </div>
                 <div className="form-education">
@@ -224,7 +217,7 @@ const AddForm = () => {
                             <div className="skill-list">
                                 {skills?.map((s) => {
                                     return (
-                                        <li key={s}>{s} <span>x</span></li>
+                                        <li key={s}>{s}</li>
                                     )
                                 })}
                             </div>
