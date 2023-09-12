@@ -8,7 +8,7 @@ const ResumeList = () => {
 
     useEffect(() => {
         const fetchinData = async () => {
-            fetch('/api', {
+            fetch('https://resumebuilder-cq8z.onrender.com/api', {
                 method: 'GET',
             }).then((res) => res.json()).then((responseJson) => {
                 setData(responseJson);

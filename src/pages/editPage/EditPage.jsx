@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom"
 const EditPage = () => {
     const { id } = useParams()
     const [data, setData] = useState([])
+    const [inputs, setInputs] = useState({});
 
     useEffect(() => {
         const fetchinData = async () => {
@@ -16,13 +17,7 @@ const EditPage = () => {
         }
         fetchinData()
     }, [])
-
     const currData = data && data.filter((item) => item.id === id)
-
-
-
-    const [inputs, setInputs] = useState({});
-   
 
     const handleChange = (e) => {
         setInputs(prevState => ({ ...prevState, [e.target.name]: e.target.value }));
@@ -31,7 +26,6 @@ const EditPage = () => {
 
     const handleSubmit = (evt) => {
         evt.preventDefault();
-
         const name = inputs.fullname;
         const course = inputs.course;
         const location = inputs.location;
@@ -69,14 +63,15 @@ const EditPage = () => {
     }
 
 
+
     return (
         <div>
             <div className="resume-page">
                 <h2>Edit</h2>
-                {currData && currData.map((d) => {
+                {currData && currData?.map((d) => {
                     return (
                         <div className="addform">
-                            <form action="" className="" onSubmit={handleSubmit}>
+                            <form action="" key={d.id} onSubmit={handleSubmit}>
                                 <div className="title">
                                     <input type="text" name="title" placeholder="Title" value={d.title} onChange={handleChange} />
                                 </div>
@@ -95,7 +90,7 @@ const EditPage = () => {
                                         <input type="text" name="githubId" id="" placeholder="github Id" onChange={handleChange} value={d.gitHub} />
                                     </div>
                                     <div className="form-names">
-                                        <input type="text" name="" placeholder="College name" value={d.grdName}/>
+                                        <input type="text" name="grdName" placeholder="College name" value={d.grdName} onChange={handleChange} />
                                         <input type="text" name="linkedIn" id="" placeholder="Linkedin Profile" onChange={handleChange} value={d.linkedIn} />
                                     </div>
                                 </div>
