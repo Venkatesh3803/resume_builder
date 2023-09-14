@@ -26,39 +26,39 @@ const EditPage = () => {
 
     const handleSubmit = (evt) => {
         evt.preventDefault();
-        const name = inputs.fullname;
-        const course = inputs.course;
-        const location = inputs.location;
-        const title = inputs.title;
-        const about = inputs.about;
-        const email = inputs.email;
-        const phone = inputs.phoneNumber;
-        const linkedIn = inputs.linkedIn;
-        const gitHub = inputs.githubId;
-        const clgName = inputs.clgName;
-        const clgCourse = inputs.clgCourse;
-        const clgYear = inputs.clgYear;
-        const clgGrade = inputs.clgGrade;
-        const grdName = inputs.grdName;
-        const grdCourse = inputs.grdCourse;
-        const grdYear = inputs.grdYear;
-        const grdGrade = inputs.grdGrade;
-        const pgName = inputs.pgName;
-        const pgCourse = inputs.pgCourse;
-        const pgYear = inputs.pgYear;
-        const pgGrade = inputs.pgGrade;
+    //     const name = inputs.fullname;
+    //     const course = inputs.course;
+    //     const location = inputs.location;
+    //     const title = inputs.title;
+    //     const about = inputs.about;
+    //     const email = inputs.email;
+    //     const phone = inputs.phoneNumber;
+    //     const linkedIn = inputs.linkedIn;
+    //     const gitHub = inputs.githubId;
+    //     const clgName = inputs.clgName;
+    //     const clgCourse = inputs.clgCourse;
+    //     const clgYear = inputs.clgYear;
+    //     const clgGrade = inputs.clgGrade;
+    //     const grdName = inputs.grdName;
+    //     const grdCourse = inputs.grdCourse;
+    //     const grdYear = inputs.grdYear;
+    //     const grdGrade = inputs.grdGrade;
+    //     const pgName = inputs.pgName;
+    //     const pgCourse = inputs.pgCourse;
+    //     const pgYear = inputs.pgYear;
+    //     const pgGrade = inputs.pgGrade;
 
 
-        fetch(`/api/${id}`, {
-            method: 'patch',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ id, name, title, email, phone, linkedIn, gitHub, clgName, clgCourse, clgGrade, clgYear, grdCourse, grdGrade, grdName, grdYear, pgCourse, pgName, pgGrade, pgYear, course, about, location }),
-        }).then((res) => res.json())
-            .finally(() => {
-                alert("resume created sucessfully")
-            });
+    //     fetch(`/api/${id}`, {
+    //         method: 'patch',
+    //         headers: {
+    //             'Content-Type': 'application/json',
+    //         },
+    //         body: JSON.stringify({ name, title, email, phone, linkedIn, gitHub, clgName, clgCourse, clgGrade, clgYear, grdCourse, grdGrade, grdName, grdYear, pgCourse, pgName, pgGrade, pgYear, course, about, location }),
+    //     }).then((res) => res.json())
+    //         .finally(() => {
+    //             alert("resume created sucessfully")
+    //         });
 
     }
 
@@ -73,7 +73,7 @@ const EditPage = () => {
                         <div className="addform">
                             <form action="" key={d.id} onSubmit={handleSubmit}>
                                 <div className="title">
-                                    <input type="text" name="title" placeholder="Title" value={d.title} onChange={handleChange} />
+                                    <input type="text" name="title" placeholder="Title" value={inputs.title = d.title} onChange={handleChange} />
                                 </div>
                                 <div className="form-top">
                                     <h4>info</h4>

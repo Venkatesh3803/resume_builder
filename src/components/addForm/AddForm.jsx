@@ -16,6 +16,7 @@ const AddForm = () => {
     const handleSkills = () => {
         if (inputs.skills?.length > 2) {
             skills.push(inputs.skills)
+            setInputs(inputs.skills = "")
         }
     }
 
@@ -26,6 +27,9 @@ const AddForm = () => {
                 title: inputs.projectTitle,
                 projectDesc: inputs.projectDesc
             })
+
+            setInputs(inputs.projectTitle = "")
+            setInputs(inputs.projectDesc = "")
         }
     }
 
@@ -37,6 +41,10 @@ const AddForm = () => {
                 experianceDesc: inputs.expDesc,
                 exYear: inputs.yearofex
             })
+
+            setInputs(inputs.companyName = "")
+            setInputs(inputs.expDesc = "")
+            setInputs(inputs.yearofex = "")
         }
 
     }
