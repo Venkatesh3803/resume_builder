@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+@media screen and (max-width : 780px) {
+  .App{
+    width: 95%;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -19,3 +19,17 @@
     min-height: 40vh;
     border-radius: 8px;
 }
+
+@media screen and (max-width : 780px) {
+    .home p{
+        width: 90%;
+        font-size: 14px;
+    }
+    .home h1{
+        font-size: 30px;
+    }
+
+    .resume-box{
+        width: 90%;
+    }
+}

@@ -42,3 +42,13 @@ nav button:hover {
     background-color: transparent;
     border: 1px solid gray;
 }
+
+@media screen and (max-width: 780px) {
+  nav li{
+        display: none;
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+}

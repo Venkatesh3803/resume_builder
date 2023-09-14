@@ -138,3 +138,10 @@ h5 {
 .project-list {
     text-align: left;
 }
+
+
+@media screen and (max-width : 780px) {
+    .addform{
+        width: 80%;
+    }
+}
