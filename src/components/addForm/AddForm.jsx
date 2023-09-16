@@ -13,28 +13,27 @@ const AddForm = () => {
         setInputs(prevState => ({ ...prevState, [e.target.name]: e.target.value }));
     }
 
-    const handleSkills = () => {
+    const handleSkills = (e) => {
         if (inputs.skills?.length > 2) {
             skills.push(inputs.skills)
-            setInputs(inputs.skills = "")
+            setInputs(prevState => ({ ...prevState, [e.target.name]: e.target.value }));
         }
     }
 
 
-    const handleProject = () => {
+    const handleProject = (e) => {
         if (inputs.projectTitle?.length > 2 && inputs.projectDesc?.length > 10) {
             projects.push({
                 title: inputs.projectTitle,
                 projectDesc: inputs.projectDesc
             })
 
-            setInputs(inputs.projectTitle = "")
-            setInputs(inputs.projectDesc = "")
+            setInputs(prevState => ({ ...prevState, [e.target.name]: e.target.value }));
         }
     }
 
 
-    const handleExperiance = () => {
+    const handleExperiance = (e) => {
         if (inputs.companyName?.length > 2 && inputs.expDesc?.length > 10) {
             experiance.push({
                 companyName: inputs.companyName,
@@ -42,9 +41,8 @@ const AddForm = () => {
                 exYear: inputs.yearofex
             })
 
-            setInputs(inputs.companyName = "")
-            setInputs(inputs.expDesc = "")
-            setInputs(inputs.yearofex = "")
+            setInputs(prevState => ({ ...prevState, [e.target.name]: e.target.value })); setInputs(inputs.companyName = "")
+
         }
 
     }
@@ -200,7 +198,7 @@ const AddForm = () => {
 
                     {experiance && experiance.map((e) => {
                         return (
-                            <div key={e.companyName} className="project-list">
+                            <div key={e.experianceDesc} className="project-list">
                                 <h4 >{e.companyName}</h4>
                                 <span>{e.exYear}</span>
                                 <p>{e.experianceDesc}</p>

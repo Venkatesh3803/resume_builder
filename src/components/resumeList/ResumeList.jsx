@@ -7,14 +7,9 @@ const ResumeList = () => {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        const fetchinData = async () => {
-            fetch('/api', {
-                method: 'GET',
-            }).then((res) => res.json()).then((responseJson) => {
-                setData(responseJson);
-            })
-        }
-        fetchinData()
+        fetch('/api')
+            .then((res) => res.json())
+            .then((data) => setData(data));
     }, [])
 
 
@@ -23,10 +18,12 @@ const ResumeList = () => {
         fetch(`/api/${id}`, {
             method: 'DELETE',
         }).then(() => {
-            const newData = data && data.filter((item) => item.id !== parseInt(id));
+            const newData = data.filter((item) => item.id !== parseInt(id));
             setData(newData);
+            console.log(data)
         });
     }
+
 
     return (
         <div className='resumelist'>

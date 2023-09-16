@@ -1,139 +1,49 @@
 {
   "api": [
     {
-      "id": "1c3e319e-631a-4541-9505-6a5960a03295",
-      "name": "Shellam Pramod",
-      "location": "Hyderabad",
-      "title": "venkatesh full stack resume",
+      "id": "1878e608-2fdf-4c1a-b055-8c777702536b",
+      "name": "Chanda Venkatesh  ",
+      "title": "venkatesh ",
       "email": "venkateshvnky3803@gmail.com",
-      "phone": "8463944069",
-      "linkedIn": "venkatesh ",
-      "gitHub": "venkateshvnky3803",
-      "clgName": "Naraya junior college",
+      "phone": "8463944069 ",
+      "location": "Hyderabad",
+      "linkedIn": "Venkat@123 ",
+      "gitHub": "venkateshvnky3803 ",
+      "clgName": "Naraya junior college  ",
       "clgCourse": "MPC",
-      "clgGrade": "83.5%",
-      "clgYear": "2015",
-      "grdCourse": "Civil engineering",
-      "grdGrade": "50%",
-      "grdName": "Mahaveer Insititute of science and technologies",
-      "grdYear": "2014-2019",
+      "clgGrade": "83.5% ",
+      "clgYear": "2015 ",
+      "grdCourse": "Civil engineering ",
+      "grdGrade": "50% ",
+      "grdName": "Mahaveer Insititute of science and technologies ",
+      "grdYear": "2014-2019 ",
+      "pgName": "upGrad ",
+      "pgYear": "2023 ",
       "exp": [
         {
           "companyName": "Tesla",
-          "experianceDesc": "The tricky part is figuring out what doesn’t belong in the project description. The description should focus on goals, objectives, and the overall approach, but you don’t need to include lists of tasks,",
-          "exYear": "2"
-        },
-        {
-          "companyName": "Micro Soft",
-          "experianceDesc": "The tricky part is figuring out what doesn’t belong in the project description. The description should focus on goals, objectives, and the overall approach, but you don’t need to include lists of tasks",
-          "exYear": "1"
-        }
-      ],
-      "project": [
-        {
-          "title": "full stack development ",
-          "projectDesc": "A strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started."
-        },
-        {
-          "title": "full stack development 2",
-          "projectDesc": "A strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started ,\nA strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started. "
-        }
-      ],
-      "skill": [
-        "reactJs",
-        "HTML"
-      ],
-      "course": "bachalore of technology (B.tech)",
-      "about": "I am certified full stack web developer , recently i have completed full stack development course from UpGrad"
-    },
-    {
-      "id": "1c3e319e-631a-4541-9505-6a5930a03295",
-      "name": "Shellam Pramod",
-      "location": "Hyderabad",
-      "title": "venkatesh full stack resume",
-      "email": "venkateshvnky3803@gmail.com",
-      "phone": "8463944069",
-      "linkedIn": "venkatesh ",
-      "gitHub": "venkateshvnky3803",
-      "clgName": "Naraya junior college",
-      "clgCourse": "MPC",
-      "clgGrade": "83.5%",
-      "clgYear": "2015",
-      "grdCourse": "Civil engineering",
-      "grdGrade": "50%",
-      "grdName": "Mahaveer Insititute of science and technologies",
-      "grdYear": "2014-2019",
-      "exp": [
-        {
-          "companyName": "Tesla",
-          "experianceDesc": "The tricky part is figuring out what doesn’t belong in the project description. The description should focus on goals, objectives, and the overall approach, but you don’t need to include lists of tasks,",
-          "exYear": "2"
-        },
-        {
-          "companyName": "Micro Soft",
-          "experianceDesc": "The tricky part is figuring out what doesn’t belong in the project description. The description should focus on goals, objectives, and the overall approach, but you don’t need to include lists of tasks",
-          "exYear": "1"
-        }
-      ],
-      "project": [
-        {
-          "title": "full stack development ",
-          "projectDesc": "A strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started."
-        },
-        {
-          "title": "full stack development 2",
-          "projectDesc": "A strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started ,\nA strong project description provides a roadmap for stakeholders and communicates the vision without getting bogged down in details. We’ve compiled expert tips and sample project descriptions to help you get started. "
-        }
-      ],
-      "skill": [
-        "reactJs",
-        "HTML"
-      ],
-      "course": "bachalore of technology (B.tech)",
-      "about": "I am certified full stack web developer , recently i have completed full stack development course from UpGrad"
-    },
-    {
-      "id": "b5f24df2-dfb0-45e1-9fca-1b1b4d45e689",
-      "name": "Chanda Venkatesh",
-      "location": "Hyderabad",
-      "title": "second resume ",
-      "email": "venkateshvnky3803@gmail.com",
-      "phone": "8463944069",
-      "linkedIn": "venkatesh ",
-      "gitHub": "venkateshvnky3803",
-      "clgName": "Naraya junior college",
-      "clgCourse": "MPC",
-      "clgGrade": "83.5%",
-      "clgYear": "2015",
-      "grdCourse": "Civil engineering",
-      "grdGrade": "50%",
-      "grdName": "Mahaveer Insititute of science and technologies",
-      "grdYear": "2015-2019",
-      "exp": [
-        {
-          "companyName": "Micro Soft",
-          "experianceDesc": "i have word for 2 year in mirco soft as a data analyist",
+          "experianceDesc": "I have Worked for two years as fullstack developer in tesla",
           "exYear": "2"
         }
       ],
       "project": [
-        {
-          "title": "full stack development 2",
-          "projectDesc": "this is the first project"
-        },
         {
           "title": "Resume Buillder (front end)",
-          "projectDesc": "In this project we can create resume edit and delete resume,"
+          "projectDesc": "Web App made for building Resumes list\n– Features - Add, Delete, Update Check Resume"
+        },
+        {
+          "title": "Dress up",
+          "projectDesc": "Web App made for building Resumes list\n– Features - Add, Delete, Update Check Resume"
         }
       ],
       "skill": [
         "reactJs",
-        "html",
-        "CSS",
-        "Next Js"
+        "HTML",
+        "CSS 3",
+        "Node Js"
       ],
-      "course": "bachalore of technology (B.tech)",
-      "about": "I am profession full stack web developer, certified from  upGrad"
+      "course": "bachalore of technology (B.tech) ",
+      "about": " I have recently compeleted Full-stack develpment BootCamp-(JavaScript) from UpGrad\n– As a Fresher Full Stack Developer, I am an enthusiastic and motivated, passion for web development "
     }
   ]
 }
